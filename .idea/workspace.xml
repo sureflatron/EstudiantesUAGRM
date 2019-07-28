@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b581e78e-b313-4183-a65c-ed3536209e29" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/util/Propiedades.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/main/Imagen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/main/Imagen.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/main/Init.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/main/Init.java" afterDir="false" />
-    </list>
+    <list default="true" id="b581e78e-b313-4183-a65c-ed3536209e29" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -151,7 +144,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/main/Init.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-651">
-              <caret line="41" column="67" lean-forward="true" selection-start-line="41" selection-start-column="67" selection-end-line="42" selection-end-column="60" />
+              <caret line="41" column="67" selection-start-line="41" selection-start-column="67" selection-end-line="42" selection-end-column="60" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -191,7 +184,7 @@
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="51">
-                <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+                <caret line="3" column="7" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
               </first_editor>
               <second_editor />
             </state>
@@ -214,7 +207,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/util/Propiedades.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="106">
-              <caret line="7" column="27" lean-forward="true" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
+              <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
               <folding>
                 <element signature="e#202#203#0" expanded="true" />
                 <element signature="e#240#241#0" expanded="true" />
@@ -338,7 +331,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-7" />
     <option name="width" value="697" />
     <option name="height" value="735" />
@@ -349,7 +342,17 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="UAGRM" type="58d84e3e:PackageViewProjectNode" />
+              <item name="UAGRM" type="616d4139:PackageViewModuleNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="AndroidView" />
       <pane id="Scope" />
       <pane id="ProjectPane">
@@ -548,20 +551,19 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1564096283628</updated>
-      <workItem from="1564096295907" duration="50863000" />
+      <workItem from="1564096295907" duration="51182000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50863000" />
+    <option name="totallyTimeSpent" value="51182000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="right" id="Maven Projects" weight="0.32980332" />
+      <window_info anchor="right" id="Maven Projects" visible="true" weight="0.32980332" />
       <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="right" id="Flutter Outline" />
       <window_info id="Capture Tool" />
@@ -578,12 +580,12 @@
       <window_info anchor="bottom" id="Java Enterprise" />
       <window_info anchor="right" id="Capture Analysis" />
       <window_info anchor="bottom" id="Flutter Performance" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Version Control" visible="true" weight="0.32876712" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.49143836" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info id="Persistence" sideWeight="0.16206896" side_tool="true" weight="0.30141288" />
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.83793104" visible="true" weight="0.301059" />
-      <window_info anchor="bottom" id="SonarLint" visible="true" weight="0.32876712" />
+      <window_info anchor="bottom" id="SonarLint" weight="0.32876712" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32876712" />
       <window_info anchor="right" id="Theme Preview" />
       <window_info id="Favorites" side_tool="true" />
@@ -597,6 +599,32 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -698,7 +726,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/main/Init.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-651">
-          <caret line="41" column="67" lean-forward="true" selection-start-line="41" selection-start-column="67" selection-end-line="42" selection-end-column="60" />
+          <caret line="41" column="67" selection-start-line="41" selection-start-column="67" selection-end-line="42" selection-end-column="60" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -827,7 +855,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/util/Propiedades.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="106">
-          <caret line="7" column="27" lean-forward="true" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
+          <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
           <folding>
             <element signature="e#202#203#0" expanded="true" />
             <element signature="e#240#241#0" expanded="true" />
@@ -874,7 +902,7 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="51">
-            <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+            <caret line="3" column="7" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
           </first_editor>
           <second_editor />
         </state>
