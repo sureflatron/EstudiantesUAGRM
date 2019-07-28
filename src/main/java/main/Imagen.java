@@ -1,30 +1,27 @@
 package main;
 
+import org.apache.log4j.Logger;
+import util.Propiedades;
+
 import java.io.*;
-import java.net.MalformedURLException;
+
 import java.net.URL;
 
 public class Imagen {
-    public static void imagen(String ruta, String registro) {
+    private static final Logger log = Logger.getLogger(Imagen.class);
 
+    public static void imagen(String ruta, String registro) {
         try {
             /* definimos la URL de la cual vamos a leer */
-            URL intlLogoURL = new URL("https://academico.uagrm.edu.bo/biometrico/datosest/" + ruta);
+            URL intlLogoURL = new URL(Propiedades.getUrlImagenes() + ruta);
 
             /* llamamos metodo para que lea de la URL y lo escriba en le fichero pasado */
-            writeTo(intlLogoURL.openStream(), new FileOutputStream(new File("F:/imagen/" + registro + ".jpg")));
+            writeTo(intlLogoURL.openStream(), new FileOutputStream(new File(Propiedades.getCarpetaImagenes() + registro + ".jpg")));
 
-            System.out.println("Imagen leida y guardada!");
-
-        } catch (MalformedURLException e) {
-            e.printStackTrace();
-
-        } catch (FileNotFoundException e) {
-            e.printStackTrace();
-
+            log.info("Imagen leida y guardada!");
+            intlLogoURL.openStream().close();
         } catch (IOException e) {
-            e.printStackTrace();
-
+            log.error(e.getMessage());
         }
     }
 
@@ -47,16 +44,17 @@ public class Imagen {
                 try {
                     in.close();
                 } catch (Exception e) {
+                    log.error(e.getMessage());
                 }
             }
             if (out != null) {
                 try {
                     out.close();
                 } catch (Exception e) {
+                    log.error(e.getMessage());
                 }
             }
         }
 
-        return;
     }
 }

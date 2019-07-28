@@ -8,6 +8,7 @@ import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
+import util.Propiedades;
 import util.UtilJava;
 
 
@@ -18,29 +19,27 @@ import java.io.IOException;
  */
 public class Init {
     private static final Logger log = Logger.getLogger(Init.class);
-    public static final String URL = "https://academico.uagrm.edu.bo/biometrico/datosest/wbiometrico.aspx?reg=";
-    public static final int MAX_PAGES = 250000000;
-    //public static final int MAX_PAGES = 211111111;
-
 
     /**
      * inicio variable donde declaramos el registro inicial
+     *
      * @param args varibla de Inicio
      */
     public static void main(String[] args) {
+        Propiedades.setUrlImagenes("https://academico.uagrm.edu.bo/biometrico/datosest/");
+        Propiedades.setCarpetaImagenes("F:/imagen/");
+        Propiedades.setUrl("https://academico.uagrm.edu.bo/biometrico/datosest/wbiometrico.aspx?reg=");
+        Propiedades.setInicio(211177242);
+        Propiedades.setMax(250000000);
 
-        int inicio = 211177242;
-        //int inicio = 211123986;
-
-        operacion(inicio);
-
+        operacion(Propiedades.getInicio());
         System.exit(0);
     }
 
     public static void operacion(int numero) {
-        for (int i = numero; i < MAX_PAGES; i++) {
+        for (int i = numero; i < Propiedades.getMax(); i++) {
 
-            String urlPage = String.format(URL + i);
+            String urlPage = String.format(Propiedades.getUrl()+i);
             log.info("Comprobando entradas de: " + urlPage);
 
 // Compruebo si me da un 200 al hacer la petición

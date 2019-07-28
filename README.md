@@ -1,3 +1,4 @@
 # EstudiantesUAGRM
-- bd MYSQL;
-- conexion hibernate;
+- BASE DE DATOS MYSQL
+- FRAMEWORK ORM HIBERNATE
+- MAVEN
