@@ -1,3 +1,3 @@
 # EstudiantesUAGRM
-#bd MYSQL
-#conexion hibernate
+- bd MYSQL;
+- conexion hibernate;
